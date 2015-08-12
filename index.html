@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=100%,initial-scale=1" />
+		<title>应凌的主页</title>
+		<link rel="stylesheet" href="css/ddfullscreenslider.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<section id="test" class="mypage">
+			<div class="slidewrapper">
+				<article class="slide me">
+					<img id="myphoto" src="img/london.png" alt="我的照片" />
+					<h2 id="name">应凌</h1>
+					<h3>别等啦！赶快联系我吧</p>
+					<h3 id="like">心仪：Web前端工程师</h3>
+					<a id="mail" href="mailto:gitmefive@163.com">gitmefive@163.com</a>
+				</article>
+				<article class="slide">
+					<h2 class="skill">专业技能</h2>
+					<p>
+						<span class="p1">Java</span>
+						<span class="p3">Sass</span>
+						<span class="p1">HTML</span>
+						<span class="p3">Bootstrap</span>
+					</p>
+					<p>
+						<span class="p2">MySQL</span>
+						<span class="p1">JavaScript</span>
+						<span class="p3">requireJS</span>
+					</p>
+					<p>
+						<span class="p2">PhotoShop</span>
+						<span class="p1">CSS</span>
+						<span class="p2">JQuery</span>
+						<span class="p3">Zepto</span>
+					</p>
+				</article>
+				<article class="slide">
+					<h2 class="project">项目经验</h2>
+					<div>
+						<ul class="projects">
+							<li>
+								<a class="prj-img" id="photo" href="webphoto/webphoto.html" target="_blank">
+									<img id="photo-img" src="img/photo.png" alt="相册" />
+								</a>
+								<h3>移动端Web相册</h3>
+							</li>
+							<li>
+								<a class="prj-img" id="nav" href="https://github.com/gitmefive/mytoolbar" target="_blank">
+									<img id="nav-img"src="img/navigation.png" alt="导航栏" />
+								</a>
+								<h3>导航栏</h3>
+							</li>
+							<li>
+								<a class="prj-img" id="web" href="#">
+									<img id="web-img" src="img/internet.png" alt="个人网站" />
+								</a>
+								<h3>个人网站</h3>
+							</li>
+						</ul>
+					</div>
+					<p id="more">更多精彩，尽在<a id="github" href="https://github.com/gitmefive" target="_blank">GitHub</a></p>
+				</article>
+				<article class="slide college">
+					<h2 class="edu">教育背景</h2>
+					<p>浙江工业大学 信息与通信工程 硕士</p>
+					<p>2013/09--2016/06</p>
+					<p>浙江工业大学 通信工程 本科</p>
+					<p>2009/09--2013/06</p>
+				</article>
+				<article class="slide job">
+					<h2 class="work">实习经历</h2>
+					<p>“什么？居然没有！What are you 弄啥嘞？”</p>
+					<p>“OMG!”</p>
+					<p>“你研究生这几年都在做啥子呀，实习都不去找？！”</p>
+					<p>“别人的实习经历写的都比你论文还长了！”</p>
+					<p>--虽然我起步晚，但我在努力地打好基础，掌握前端的各方面知识，相信勤能补拙！</p>
+					<p>--啊！不多说了，码代码去了，就让我沉迷于前端无法自拔吧！</p>
+				</article>
+				<article class="slide info">
+					<h2>更多</h2>
+					<p id="infome">
+						<a href="mailto:gitmefive@163.com" target="_blank">邮箱</a> | <a href="https://github.com/gitmefive" target="_blank">GitHub</a> | <a href="http://cnblogs.com/bingoart" target="_blank">博客</a>
+					</p>
+					<p><a href="Web YingLing.pdf" id="resume">下载简历</a></p>
+				</article>
+			</div>
+		</section>
+		
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery.mousewheel.min.js"></script>
+		<script src="js/ddfullscreenslider.js"></script>
+		<script>
+			var fss;
+			$(function(){
+				fss=new ddfullscreenslider({
+					sliderid:'test'
+				});
+			});
+		</script>
+	</body>
+</html>
